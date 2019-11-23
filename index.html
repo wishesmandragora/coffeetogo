@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kafic Coffee To Go</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body>
+<nav>
+<!--    Desktop navigation-->
+    <div class="navbar">
+        <img src="images/coffee_logo.png" alt="Coffee cup" class="navlogo">
+        <ul class="navigation">
+            <li><a href="#">Naslovna</a></li>
+            <li><a href="#about">O nama</a></li>
+            <li><a href="#menu">Meni</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </div>
+<!--    Moblie navigation-->
+    <div class="navbartel">
+        <img src="images/coffee_logo.png" alt="Coffee cup" class="logotel">
+        <ul class="navigationtel">
+            <li><a href="#">Naslovna</a></li>
+            <li><a href="#about">O nama</a></li>
+            <li><a href="#menu">Meni</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header id="showcase">
+    <h1>COFFEE TO GO</h1>
+    <p>Dobrodošli!</p>
+</header>
+
+<main>
+    <section id="services">
+        <div id="container">
+            <img src="images/newvisions.jpg" alt="Sofa" class="image">
+            <div class="overlay">
+                <div class="text">New visions skola engleskog jezika!</div>
+            </div>
+        </div>
+        <div id="container1">
+            <img src="images/nyparty.jpg" alt="Party" class="image">
+            <div class="overlay">
+                <div class="text">Samo dobre đuske!</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="description">
+            <h3>O NAMA</h3>
+            <p>Ukoliko tražite kafić sa širokim izborom specijalnih kafa, čajeva i drugih proizvoda kao
+                što su grickalice,kolačići, mini sendviči i salate, mi smo vam na usluzi!
+            </p>
+        </div>
+        <div id="drugi">
+            <img src="images/pixi.jpeg" alt="Coffee Shop">
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>COFFEE TO GO TOP SELECTION. PO IZBORU NAŠIH GOSTIJU.</h2>
+        <div class="flex-container">
+            <div class="card">
+                <h4>CHE GUEVARA</h4>
+                <p class="price">149din</p>
+                <p>NES cafe i banana ili jagoda</p>
+            </div>
+            <div class="card">
+                <h4>ESPRESSO MOCHA</h4>
+                <p class="price">144din</p>
+                <p>Espresso sa crnom ili belom čokoladom, lešnikom, kokosom ili jagodom.</p>
+            </div>
+            <div class="card">
+                <h4>CHOCO ESPRESSO</h4>
+                <p class="price">144din</p>
+                <p>Espresso sa crnom ili belom čokoladom, lešnikom, kokosom, jagodom, tiramisuom.</p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="card">
+                <h4>CAPUCCINO</h4>
+                <p class="price">130din</p>
+                <p>Capuccino sa vanilom, lešnikom, rumom ili karamelom.</p>
+            </div>
+            <div class="card">
+                <h4>NES CAFE AROMA</h4>
+                <p class="price">175din</p>
+                <p>NES cafe sa aromom.</p>
+            </div>
+            <div class="card">
+                <h4>ALCO COFFEE CHOCO CHERRY</h4>
+                <p class="price">200din</p>
+                <p>Za ostale ukuse-pitajte!</p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="card">
+                <h4>NES MOCHA</h4>
+                <p class="price">144din</p>
+                <p>NES cafe sa crnom ili belom čokoladom, lešnikom, jagodom ili kokosom.</p>
+            </div>
+            <div class="card">
+                <h4>CHOCO NES</h4>
+                <p class="price">144din</p>
+                <p>NES cafe sa crnom ili belom čokoladom, lešnikom, jagodom ili kokosom ili tiramisuom.</p>
+            </div>
+            <div class="card">
+                <h4>AROMATIC LATTES</h4>
+                <p class="price">246din</p>
+                <p>Lešnik, badem, tiramisu, Irish cream, biskvit, karamela, amaretto, cimet.</p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="card">
+                <h4>OREOS COFFEE</h4>
+                <p class="price">180din</p>
+                <p>Kafa sa hrskavim oreo biskvitom.</p>
+            </div>
+            <div class="card">
+                <h4>FRUIT AROMA ESPRESSO</h4>
+                <p class="price">145din</p>
+                <p>Espresso sa bananom, šumskim voćem, jagodom ili višnjom.</p>
+            </div>
+            <div class="card">
+                <h4>SMOOTHIE FOR THE SOUL</h4>
+                <p class="price">145din</p>
+                <p>Od voća, povrća, mleka..Sve kako nam je priroda rekla!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <form name="contactform">
+            <label for="name">Ime</label>
+            <input type="text" id="name" name="name">
+            <label for="surname">Prezime</label>
+            <input type="text" id="surname" name="surname">
+            <label for="email">Mail</label>
+            <input type="email" id="email">
+            <button type="button">Pošalji</button>
+            <button type="button">Izbrisi</button>
+        </form>
+
+        <div class="hours">
+            <h4>Radno vreme</h4>
+            <p>Od ponedeljka do četvrtka: 8:00 - 23:00</p>
+            <p>Petak i subota: 8:00 - 1:00</p>
+            <p>Nedelja: 9:00 - 23:00</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="text">Copyrights by Ana Budimir.</div>
+    <div class="social">
+        <div class="icons">
+            <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa fa-tripadvisor fa-2x"></i></a>
+            <a href="#"><i class="fa fa-foursquare fa-2x"></i></a>
+        </div>
+    </div>
+</footer>
+
+<!--Sripts-->
+<script src="main.js"></script>
+
+</body>
+</html>
