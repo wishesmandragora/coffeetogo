@@ -9,4 +9,4 @@ Disallow: /admin/
 Disallow: /googleanalytics/
 Allow: /
 
-Sitemap: http://www.ana.dx.rs/sitemap.xml
+Sitemap: https://www.ana.dx.rs/sitemap.xml
