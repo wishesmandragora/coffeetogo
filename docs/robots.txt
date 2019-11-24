@@ -1,0 +1,12 @@
+# Group 1
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /admin/
+
+# Group 2
+User-agent: *
+Disallow: /admin/
+Disallow: /googleanalytics/
+Allow: /
+
+Sitemap: http://www.ana.dx.rs/sitemap.xml

@@ -1,0 +1,8 @@
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ana.dx.rs/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://ana.dx.rs/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://ana.dx.rs/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://ana.dx.rs/favicon-16x16.png" sizes="16x16" />
+<meta name="application-name" content="Coffee To Go || Vaš omiljeni kafić"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="https://ana.dx.rs/mstile-144x144.png" />
+<meta name="msapplication-notification" content="frequency=30;polling-uri=https://notifications.buildmypinnedsite.com/?feed=https://ana.dx.rs/feed.xml&amp;id=1;polling-uri2=https://notifications.buildmypinnedsite.com/?feed=https://ana.dx.rs/feed.xml&amp;id=2;polling-uri3=https://notifications.buildmypinnedsite.com/?feed=https://ana.dx.rs/feed.xml&amp;id=3;polling-uri4=https://notifications.buildmypinnedsite.com/?feed=https://ana.dx.rs/feed.xml&amp;id=4;polling-uri5=https://notifications.buildmypinnedsite.com/?feed=https://ana.dx.rs/feed.xml&amp;id=5;cycle=1" />
